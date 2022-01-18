@@ -9,17 +9,26 @@ import org.mapstruct.factory.Mappers;
  * @param <E> the entity type
  * @param <D> the dto type
  * @author Jean Aimé
+ *
+ * <div>
+ *     How to implement it
+ *     //@Mapper
+ *     public interface CarMapper extends MapperService<Car, CarDto> {
+ *     CarMapper INSTANCE = Mappers.getMapper( CarMapper.class );
+ * }
+ * </div>
+ *
  */
 
-public interface MapperService<E, D> {
+public interface MapperService<E, DTO> {
     /**
      * Map the provided dto to entity
      */
-    E mapToEntity(D dto);
+    E mapToEntity(DTO dto);
 
     /**
      * Map the entity to Dto
      */
-    D mapToDto(E entity);
+    DTO mapToDto(E entity);
 
 }
