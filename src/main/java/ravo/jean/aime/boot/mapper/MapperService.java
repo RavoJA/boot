@@ -1,5 +1,8 @@
 package ravo.jean.aime.boot.mapper;
 
+import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
+
 /**
  * Perform a mapping between two class
  *
@@ -7,8 +10,8 @@ package ravo.jean.aime.boot.mapper;
  * @param <D> the dto type
  * @author Jean Aimé
  */
-public interface MapperService<E, D> {
 
+public interface MapperService<E, D> {
     /**
      * Map the provided dto to entity
      */
