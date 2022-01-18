@@ -25,11 +25,6 @@ public abstract class AbstractDto<ID> implements Serializable {
     public AbstractDto() {
     }
 
-    public AbstractDto(ID id, String connectedUserId) {
-        this.id = id;
-        this.connectedUserId = connectedUserId;
-    }
-
     public ID getId() {
         return id;
     }
@@ -57,5 +52,13 @@ public abstract class AbstractDto<ID> implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hash(id, connectedUserId);
+    }
+
+    @Override
+    public String toString() {
+        return "AbstractDto{" +
+                "id=" + id +
+                ", connectedUserId='" + connectedUserId + '\'' +
+                '}';
     }
 }
