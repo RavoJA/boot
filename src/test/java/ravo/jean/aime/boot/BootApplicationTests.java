@@ -17,7 +17,7 @@ class BootApplicationTests {
     void contextLoads() {
     }
 
-    @Test
+   /* @Test
     public void shouldMapCarToDto() {
         //given
         Car car = new Car("x01", "Ford Type 5");
@@ -30,6 +30,6 @@ class BootApplicationTests {
         assertThat(carDto.getId()).isEqualTo("x01");
         assertThat(carDto.getName()).isEqualTo("Ford Type 5");
 
-    }
+    }*/
 
 }

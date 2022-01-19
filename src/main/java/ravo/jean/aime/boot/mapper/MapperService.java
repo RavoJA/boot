@@ -7,7 +7,7 @@ import org.mapstruct.factory.Mappers;
  * Perform a mapping between two class
  *
  * @param <E> the entity type
- * @param <D> the dto type
+ * @param <DTO>> the dto type
  * @author Jean Aimé
  *
  * <div>
