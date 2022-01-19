@@ -1,14 +1,7 @@
 package ravo.jean.aime.boot;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import ravo.jean.aime.boot.domain.Car;
-import ravo.jean.aime.boot.domain.CarDto;
-import ravo.jean.aime.boot.mapper.CarMapper;
-import ravo.jean.aime.boot.mapper.MapperService;
-
-import static org.assertj.core.api.Assertions.*;
 
 @SpringBootTest
 class BootApplicationTests {
