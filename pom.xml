@@ -91,7 +91,7 @@
         <repository>
             <id>github</id>
             <name>Releases</name>
-            <url>https://maven.pkg.github.com/org1/repo1</url>
+            <url>https://maven.pkg.github.com/ravoja/boot</url>
         </repository>
     </distributionManagement>
 </project>
