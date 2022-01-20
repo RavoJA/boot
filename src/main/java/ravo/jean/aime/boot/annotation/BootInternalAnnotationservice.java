@@ -16,7 +16,7 @@ import java.util.Optional;
  * Set uppercate the first letter of the sintence
  */
 @Service
-public class AnnotationServiceImpl {
+public class BootInternalAnnotationservice {
 
     @PersistenceContext
     EntityManager vEntityManager;

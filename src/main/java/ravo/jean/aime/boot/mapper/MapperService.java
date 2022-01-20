@@ -11,8 +11,8 @@ import org.mapstruct.factory.Mappers;
  * @author Jean Aimé
  *
  * <div>
- *     How to implement it
- *     //@Mapper
+ *     How to implement it with mapstruct
+ *     // @Mapper
  *     public interface CarMapper extends MapperService<Car, CarDto> {
  *     CarMapper INSTANCE = Mappers.getMapper( CarMapper.class );
  * }
